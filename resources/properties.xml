@@ -1,0 +1,21 @@
+<resources> 
+	<properties> 
+		<property id="screen_color" type="number">0</property>
+        <property id="interval" type="float">1.5</property>		
+	</properties> 
+    <settings> 
+        <setting propertyKey="@Properties.screen_color" title="@Strings.screen_color" prompt="@Strings.screen_color">
+			<settingConfig type="list" >
+				<listEntry value="0">@Strings.color_default</listEntry>
+				<listEntry value="1">@Strings.color_red</listEntry>
+				<listEntry value="2">@Strings.color_green</listEntry>
+				<listEntry value="3">@Strings.color_blue</listEntry>
+				<listEntry value="4">@Strings.color_white</listEntry>
+				<listEntry value="5">@Strings.color_black</listEntry>
+			</settingConfig>
+		</setting>
+        <setting propertyKey="@Properties.interval" title="@Strings.interval" prompt="@Strings.interval">
+            <settingConfig type="numeric" />
+        </setting>
+    </settings>
+</resources>
