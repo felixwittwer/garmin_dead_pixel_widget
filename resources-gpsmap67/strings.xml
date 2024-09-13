@@ -1,0 +1,13 @@
+<strings>
+    <string id="AppName">garmin_dead_pixel_widget</string>
+
+    <string id="screen_color">Screen Color</string>
+    <string id="interval">Cycle interval in seconds</string>
+
+    <string id="color_default">Color cycle</string>
+    <string id="color_red">Red</string>
+    <string id="color_green">Green</string>
+    <string id="color_blue">Blue</string>
+    <string id="color_white">White</string>
+    <string id="color_black">Black</string>
+</strings>
