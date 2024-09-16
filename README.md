@@ -21,4 +21,4 @@ a simple widget with which you can check for dead pixels on your garmin device
 - copy the .prg file to your device's GARMIN/APPS directory
 - unplug your device and reboot
 
-The widget is now installed, to acces the widget press the powerbutton once shortly and press the right key on the d-pad
+The widget is now installed, to access the widget press the power button once shortly followed by a right key press on the d-pad.
