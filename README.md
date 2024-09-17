@@ -13,7 +13,7 @@ a simple widget with which you can check for dead pixels on your garmin device
 
 #### from GARMIN IQ-Store
 
-> insert link from IQ-Store here
+[https://apps.garmin.com/de-DE/apps/d87cc8e2-5555-48a1-a2b7-b191b13b34b6](https://apps.garmin.com/de-DE/apps/d87cc8e2-5555-48a1-a2b7-b191b13b34b6)
 
 #### directly to device (settings may not be avaliable)
 
