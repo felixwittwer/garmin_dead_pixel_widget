@@ -1,6 +1,6 @@
 import Toybox.Application;
 import Toybox.Lang;
-import Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
 
 class garmin_dead_pixel_widgetApp extends Application.AppBase {
 
@@ -17,8 +17,12 @@ class garmin_dead_pixel_widgetApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as [Views] or [Views, InputDelegates] {
+    function getInitialView(){
         return [ new garmin_dead_pixel_widgetView() ];
+    }
+
+    function onSettingsChanged(){
+        Ui.requestUpdate();
     }
 
 }
